@@ -13,7 +13,7 @@ public class TesteCliente {
 		cliente.cartao.numero = 15;
 		cliente.cartao.totalFatura = 9000.00;
 		
-		//saída de dados
+		//saÃ­da de dados
 		System.out.println(cliente.retornarDados());
 		
 		

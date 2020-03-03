@@ -10,6 +10,7 @@ public class Bloquinho {
 		Bloquinho.imprimir(vd);
 		Bloquinho.imprimir(vi);
 		Bloquinho.imprimir(vs);
+		//oi
 		
 	}
 

@@ -1,0 +1,5 @@
+vetor: int[] x = new int[10];
+
+Matriz: int [][] y = new int[3][3];
+- O primeiro conchete da matriz indica o total de linhas, já o 2º indica total de colunas
+- A matriz é o vetor do vetor;

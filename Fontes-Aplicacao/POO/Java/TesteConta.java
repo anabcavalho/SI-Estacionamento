@@ -7,14 +7,14 @@ public class TesteConta {
 		Conta conta = new Conta();
 		
 		//entrada de dados
-		System.out.print("Número -> ");
+		System.out.print("NÃºmero -> ");
 		conta.numero = teclado.nextInt();
 		System.out.print("Saldo inicial -> R$ ");
 		conta.saldo = teclado.nextDouble();
 		System.out.print("Limite -> R$ ");
 		conta.limite = teclado.nextDouble();
 				
-		//saída de dados
+		//saÃ­da de dados
 		System.out.println(conta.retornarDados());
 		
 		teclado.close();

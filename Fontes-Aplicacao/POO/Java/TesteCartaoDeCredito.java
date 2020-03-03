@@ -7,12 +7,12 @@ public class TesteCartaoDeCredito {
 		CartaoDeCredito cartao = new CartaoDeCredito();
 
 		// entrada de dados
-		System.out.print("Número -> ");
+		System.out.print("NÃºmero -> ");
 		cartao.numero = teclado.nextInt();
 		System.out.print("Fatura -> R$ ");
 		cartao.totalFatura = teclado.nextDouble();
 		
-		// saída de dados
+		// saÃ­da de dados
 		System.out.println(cartao.retornarDados());
 
 		teclado.close();

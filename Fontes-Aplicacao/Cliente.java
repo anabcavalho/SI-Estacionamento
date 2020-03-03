@@ -1,12 +1,12 @@
 
 public class Cliente {
-	//atributos ou propriedades ou variáveis de instância
+	//atributos ou propriedades ou variÃ¡veis de instÃ¢ncia
 	String nome;
 	String cpf;
 	CartaoDeCredito cartao = new CartaoDeCredito();
 	Conta conta = new Conta();
 	
-	//método para retornar todos os dados
+	//mÃ©todo para retornar todos os dados
 	public String retornarDados() {
 		String aux = "";
 		aux += "Nome -> "+nome+"\n";

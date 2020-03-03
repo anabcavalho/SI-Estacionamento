@@ -20,7 +20,7 @@ public class TesteTransferencia {
 		Conta selmini = new Conta();
 		selmini.saldo = 5600;
 		
-		//chamada para um método que vai receber como parâmetro os três 
+		//chamada para um mÃ©todo que vai receber como parÃ¢metro os trÃªs 
 		//objetos e vai retornar o objeto com o maior saldo
 		Conta aux = maiorSaldo(maria, jao, selmini);
 		System.out.println(aux.retornarDados());

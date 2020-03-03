@@ -11,12 +11,13 @@ public class TesteFuncionario {
 		funcionario.nome = teclado.nextLine();
 		System.out.print("CPF -> ");
 		funcionario.cpf = teclado.nextLine();
-		System.out.print("Salário -> R$ ");
+		System.out.print("SalÃ¡rio -> R$ ");
 		funcionario.salario = teclado.nextDouble();		
 
-		// saída de dados
+		// saÃ­da de dados
 		System.out.println(funcionario.retornarDados());
-
+		
+		System.out.println("isso Ã© tudo pessoal!");
 		teclado.close();
 	}
 }

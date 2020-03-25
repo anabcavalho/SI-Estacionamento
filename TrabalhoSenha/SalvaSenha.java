@@ -8,7 +8,7 @@ public class SalvaSenha {
 		
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Digite uma senha de, no m·ximo, 15 caracteres: ");
+		System.out.println("Digite uma senha de, no m√°ximo, 15 caracteres: ");
 		
 		teclado.close();
 	}	
